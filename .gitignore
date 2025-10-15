@@ -1,0 +1,51 @@
+# Root level gitignore
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+/frontend/build/
+/frontend/dist/
+
+# Test coverage
+/frontend/coverage/
+/backend/coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Debug logs
+debug.log
+
+# Local development
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Package files
+package-lock.json
+yarn.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
